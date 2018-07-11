@@ -1,0 +1,11 @@
+node {
+	stage 'Checkout'
+		println("this is checkout step")
+
+	stage 'Build'
+		println("this is build step")
+
+	stage 'Archive'
+		println("this is archive step")
+
+}
